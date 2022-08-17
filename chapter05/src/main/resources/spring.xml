@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<beans>
+    <bean id="userService05" class="com.example.springframework.beans.factory.UserService05">
+        <property name="name" value="22221"></property>
+        <property name="userDao05" ref="userDao05"></property>
+    </bean>
+    <bean id="userDao05" class="com.example.springframework.beans.factory.UserDao05"></bean>
+</beans>
